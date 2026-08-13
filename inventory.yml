@@ -1,0 +1,6 @@
+all:
+  hosts:
+    web:
+      ansible_host: 172.16.99.46 
+      ansible_user: jeswin2
+      ansible_ssh_private_key_file: ~/.ssh/id_rsa
