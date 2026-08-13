@@ -2,6 +2,8 @@
 - name: Install and Configure Nginx Web Server
   hosts: web
   become: true
+  vars_files:
+    - vault.yml
 
   tasks:
 
